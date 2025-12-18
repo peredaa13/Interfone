@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interfone Digital</title>
+    <style>
+        body {
+            background: #0f172a;
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            color: white;
+        }
+        h2 { margin-bottom: 20px; font-weight: 300; letter-spacing: 1px; text-transform: uppercase; }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .btn {
+            width: 85px;
+            height: 85px;
+            border-radius: 20px;
+            border: none;
+            background: #1e293b;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* Efeito 3D Profundo */
+            box-shadow: 6px 6px 12px rgba(0,0,0,0.4), 
+                        inset -2px -2px 6px rgba(255,255,255,0.05);
+            transition: all 0.2s ease;
+        }
+        .btn:active {
+            transform: scale(0.92);
+            box-shadow: inset 4px 4px 8px rgba(0,0,0,0.6);
+        }
+        /* Cor de destaque para o seu apartamento */
+        .meu-ap {
+            background: linear-gradient(145deg, #10b981, #059669); /* Verde WhatsApp */
+            box-shadow: 0 0 20px rgba(16, 185, 129, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <h2>Residencial</h2>
+    <div class="grid">
+        <a href="#" class="btn">1</a>
+        <a href="#" class="btn">2</a>
+        <a href="#" class="btn">3</a>
+        <a href="#" class="btn">4</a>
+        <a href="#" class="btn">5</a>
+        <a href="#" class="btn">6</a>
+        
+        <a href="https://wa.me/5548988760168?text=Entregador%20na%20porta!" class="btn meu-ap">7</a>
+        
+        <a href="#" class="btn">8</a>
+        <a href="#" class="btn">9</a>
+        <a href="#" class="btn">10</a>
+        <a href="#" class="btn">11</a>
+        <a href="#" class="btn">12</a>
+    </div>
+    <p style="margin-top: 30px; opacity: 0.6; font-size: 0.9rem;">Toque no seu AP para avisar</p>
+</body>
+  </html>
+          
